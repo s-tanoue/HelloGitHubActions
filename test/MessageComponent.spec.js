@@ -9,6 +9,6 @@ describe('メッセージを表示するコンポーネントのテスト', () =
                 msg: 'Hello world'
             }
         })
-    expect(wrapper.text()).toContain('Hello world')
+    expect(wrapper.text()).toContain('aaa')
   })
 })
